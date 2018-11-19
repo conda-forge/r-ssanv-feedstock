@@ -14,9 +14,9 @@ source:
   sha256: 4dea3fefe2d9da6a3020d19dea2ebc6634df38cbce0415fb16b0d4fe5551449d
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
-  skip: true  # [win32]
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -41,8 +41,7 @@ about:
     Does adjustments for either nonadherence or variability that comes from using data
     to estimate parameters.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
