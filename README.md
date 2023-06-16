@@ -1,11 +1,11 @@
-About r-ssanv
-=============
+About r-ssanv-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ssanv-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=ssanv
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ssanv-feedstock/blob/main/LICENSE.txt)
 
 Summary: A set of functions to calculate sample size for two-sample difference in means tests. Does adjustments for either nonadherence or variability that comes from using data to estimate parameters.
 
